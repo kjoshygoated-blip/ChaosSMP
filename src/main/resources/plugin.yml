@@ -1,0 +1,32 @@
+name: ChaosSMP
+version: 1.0.0
+main: com.chaossmp.ChaosSMP
+api-version: '26.1'
+description: Donut + Unstable style SMP plugin - economy, shop, AH, objectives, maps, loading screen, chaos events, lifesteal.
+commands:
+  bal: {description: Check balance, aliases: [balance, money]}
+  pay: {description: Pay a player}
+  baltop: {description: Richest players}
+  shards: {description: Check shards}
+  shop: {description: Open the shop}
+  sell: {description: Sell items (hand / all)}
+  ah: {description: Auction house, aliases: [auction]}
+  maps: {description: Open the maps (warps) menu, aliases: [warps]}
+  warp: {description: Teleport to a map/warp}
+  setwarp: {description: Create a warp}
+  delwarp: {description: Delete a warp}
+  minimap: {description: Get a minimap of your position}
+  spawn: {description: Go to spawn}
+  setspawn: {description: Set spawn}
+  rtp: {description: Random teleport, aliases: [wild]}
+  tpa: {description: Request teleport}
+  tpaccept: {description: Accept teleport}
+  tpdeny: {description: Deny teleport}
+  objectives: {description: Daily objectives, aliases: [obj, quests]}
+  chaos: {description: Trigger/list chaos events}
+  givemoney: {description: Give money}
+  giveshards: {description: Give shards}
+  loading: {description: Replay loading screen}
+permissions:
+  chaossmp.admin:
+    default: op

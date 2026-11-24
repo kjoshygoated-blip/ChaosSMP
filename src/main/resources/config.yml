@@ -1,0 +1,21 @@
+server-name: "CHAOS SMP"
+start-money: 5000
+start-shards: 5
+rtp-radius: 5000
+loading:
+  seconds: 8
+  teleport-to-spawn: true
+  tips:
+    - "Chaos events hit every few minutes!"
+    - "Kill players to steal their hearts"
+    - "Finish /objectives for money and shards"
+    - "Sell loot with /sell all"
+    - "Check /maps to travel"
+    - "Trade with everyone on /ah"
+chaos:
+  interval-minutes: 8
+  meteor-block-damage: false
+lifesteal:
+  enabled: true
+  min-hearts: 3
+  max-hearts: 20
